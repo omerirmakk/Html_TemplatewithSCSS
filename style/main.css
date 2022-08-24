@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+header .logo {
+  width: 180px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 122px;
+  padding: 1px 32px;
+  background-color: #d9d9d9;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(0deg, 0%, 73%);
+}
+header nav {
+  display: flex;
+  position: relative;
+  right: 90px;
+  top: 0;
+}
+header li,
+header a {
+  list-style: none;
+  text-decoration: none;
+  color: #231f20;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  line-height: 24px;
+  margin: 53px 1em 38px 0;
+}
+
+main {
+  min-width: 150px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: flex;
+}
+main .header_text {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  left: 122px;
+}
+main .header_text h2 {
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 48px;
+  color: hsl(345deg, 6%, 13%);
+}
+main .header_text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 37px;
+  color: hsla(345deg, 6%, 13%, 0.7);
+}
+main .header_image {
+  position: relative;
+  font-size: 5em;
+  line-height: 48px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(0deg, 0%, 73%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 777px;
+  height: 650px;
+  left: 663px;
+  background-color: #ededed;
+  z-index: -159;
+}
+main .header_button {
+  box-shadow: none;
+  border: none;
+  width: 232px;
+  height: 58px;
+  border-radius: 40px;
+  margin-top: 42px;
+  margin-right: 1em;
+  font: 1em "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  cursor: pointer;
+}
+main .header_button.btn1 {
+  background-color: #0196ff;
+  color: white;
+}
+main .header_button.btn2 {
+  color: #0196ff;
+  background-color: white;
+  border: 2px solid #0196ff;
+}
+
+#About {
+  position: relative;
+  background-color: #292e37;
+  margin-top: 115px;
+  height: 628px;
+}
+#About h3 {
+  position: relative;
+  display: inline-block;
+  left: 122px;
+  top: 62px;
+  font: 2em "Poppins", sans-serif;
+  font-weight: 800;
+  line-height: 48px;
+  color: hsl(0deg, 0%, 100%);
+}
+#About p {
+  color: hsla(0deg, 0%, 100%, 0.8);
+  font: 20px "Poppins", sans-serif;
+  line-height: 36px;
+  position: absolute;
+  right: 0;
+  margin-right: 122px;
+  margin-top: 14px;
+}
+
+#ourfocus_first_h {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+#Ourfocus {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  margin-top: 36px;
+}
+#Ourfocus h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+}
+#Ourfocus h3#h3_with_margin {
+  margin-top: 34px;
+}
+#Ourfocus p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#Ourfocus .ourfocus_left {
+  position: relative;
+  left: 137px;
+}
+#Ourfocus .ourfocus_right {
+  position: absolute;
+  right: 138px;
+}
+#Ourfocus .ourfocus_right h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #0196ff;
+}
+
+svg {
+  position: absolute;
+  margin-left: -80px;
+  margin-top: 16px;
+}
+
+object::before {
+  content: " www";
+  font-size: 0.5em;
+  position: relative;
+  left: -45px;
+  top: 25px;
+  background-color: #0196ff;
+  width: 1em;
+  height: 1em;
+}
+
+#Portfolio {
+  background: hsla(219deg, 15%, 19%, 0.03);
+  font-family: "Poppins", sans-serif;
+  margin-top: 118px;
+}
+#Portfolio h3 {
+  padding-top: 82px;
+  position: relative;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+}
+#Portfolio p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 27px;
+}
+
+.portfolio_grid_items {
+  margin-left: 126px;
+  margin-right: 125px;
+  margin-top: 69px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 160px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.portfolio_grid_items .grid {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 343px;
+  height: 200px;
+  border: 1px solid black;
+}
+.portfolio_grid_items .grid.grid1, .portfolio_grid_items .grid.grid2 {
+  background-color: hsl(0deg, 0%, 0%);
+}
+.portfolio_grid_items .grid.grid3 {
+  background-color: hsl(275deg, 100%, 20%);
+}
+.portfolio_grid_items .grid.grid4 {
+  background-color: hsl(40deg, 92%, 53%);
+}
+.portfolio_grid_items .grid.grid5 {
+  background-color: hsl(213deg, 17%, 13%);
+}
+.portfolio_grid_items .grid.grid6 {
+  background-color: hsl(238deg, 60%, 16%);
+}
+.portfolio_grid_items .grid div {
+  background: hsl(0deg, 0%, 73%);
+  padding: 9px 33px;
+}
+
+#ourfocus2 {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+#ourfocus2 h3 {
+  padding-top: 108px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+}
+#ourfocus2 #ourfocus_big_p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 64px;
+  margin-left: 0;
+}
+#ourfocus2 div {
+  padding-bottom: 24px;
+}
+#ourfocus2 h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-left: 122px;
+  text-align: left;
+  color: #0196ff;
+}
+#ourfocus2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 122px;
+}
+
+footer {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+footer .footer_logo {
+  background: hsl(0deg, 0%, 85%);
+  color: #bbbbbb;
+  padding-bottom: 45px;
+  width: 126px;
+  height: 35px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+footer .footer_links {
+  display: flex;
+}
+footer .footer_links div {
+  margin-left: 48px;
+}
+footer h5 {
+  padding-top: 76px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+}
+footer p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+hr {
+  position: relative;
+  left: 160px;
+  width: 75%;
+}
+
+.team_main_section {
+  font-family: "Poppins", sans-serif;
+}
+.team_main_section .team_container {
+  width: 1000px;
+  min-height: 700px;
+  background-color: white;
+  margin-top: 162px;
+  position: relative;
+  left: 15%;
+}
+.team_main_section .team_container .team_managers {
+  padding-top: 90px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.team_main_section .team_container .team_managers .team_names {
+  position: relative;
+  width: 400px;
+  height: 460px;
+  background-color: hsl(0deg, 0%, 93%);
+}
+.team_main_section .team_container .team_managers .team_names div {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+}
+.team_main_section .team_container .team_managers .team_names div h5 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #0196ff;
+}
+.team_main_section .team_container .team_managers .team_names div p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #231f20;
+}
+.team_main_section h3 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+}
+.team_main_section p {
+  padding-top: 27px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #231f20;
+}/*# sourceMappingURL=main.css.map */
