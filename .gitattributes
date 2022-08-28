@@ -1,4 +1,1 @@
- linguist-vendored
 .html linguist-detectable=false
-.scss linguist-detectable=true
-.css linguist-detectable=true
